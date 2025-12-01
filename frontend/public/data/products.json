@@ -1,0 +1,149 @@
+{
+  "categories": [
+    {
+      "id": "haircare",
+      "label": "Haircare",
+      "image": "/images/cat-haircare.png"
+    },
+    {
+      "id": "skincare",
+      "label": "Skin care",
+      "image": "/images/cat-skincare.png"
+    },
+    {
+      "id": "makeup",
+      "label": "Makeup",
+      "image": "/images/cat-makeup.png"
+    },
+    {
+      "id": "tools",
+      "label": "Hair tools",
+      "image": "/images/cat-tools.png"
+    },
+    {
+      "id": "fragrance",
+      "label": "Fragrances",
+      "image": "/images/cat-fragrance.png"
+    },
+    {
+      "id": "premium",
+      "label": "Premium beauty",
+      "image": "/images/cat-premium.png"
+    },
+    {
+      "id": "travel",
+      "label": "Travel size",
+      "image": "/images/cat-travel.png"
+    },
+    {
+      "id": "beautytools",
+      "label": "Beauty tools",
+      "image": "/images/cat-beautytools.png"
+    },
+    {
+      "id": "suncare",
+      "label": "Suncare",
+      "image": "images/cat-suncare.png"
+    },
+    {
+      "id":"thecurlshop",
+      "label":"The Curl Shop",
+      "image":"./images/cat-thecurlshop.png"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "KISS Self Adhesive Eyelashes WICKED x imPRESS",
+      "price": 1000,
+      "rating": 4,
+      "category": "makeup",
+      "image": "/images/prod-beauty1.png"
+    },
+    {
+      "id": 2,
+      "title": "Revlon Super Lustrous Creme Lipstick, Creamy Formula",
+      "price": 1000,
+      "rating": 4,
+      "category": "makeup",
+      "image": "/images/prod-beauty2.png"
+    },
+    {
+      "id": 3,
+      "title": "Schwarzkopf Keratin Color Permanent Hair Color",
+      "price": 1000,
+      "rating": 4,
+      "category": "haircare",
+      "image": "/images/prod-hair1.png"
+    },
+    {
+      "id": 4,
+      "title": "essence Juicy Bomb Shiny Lipgloss 104",
+      "price": 1000,
+      "rating": 4,
+      "category": "makeup",
+      "image": "/images/prod-beauty3.png"
+    },
+    {
+      "id": 5,
+      "title": "Wet n Wild Perfect Pout Lip Liner Stain",
+      "price": 1000,
+      "rating": 4,
+      "category": "makeup",
+      "image": "/images/prod-beauty4.png"
+    },
+    {
+      "id": 6,
+      "title": "essence Hydra Kiss Lip Oil 05 Midnight Mystery",
+      "price": 1000,
+      "rating": 4,
+      "category": "makeup",
+      "image": "/images/prod-beauty5.png"
+    }
+  ],
+  "brands": [
+    {
+      "id": "lakme",
+      "label": "LAKMÉ",
+      "logo": "/images/brand-lakme.png"
+    },
+    {
+      "id": "lotus",
+      "label": "Lotus",
+      "logo": "/images/brand-lotus.png"
+    },
+    {
+      "id": "forest",
+      "label": "Forest",
+      "logo": "/images/brand-forest.png"
+    },
+    {
+      "id": "biotique",
+      "label": "Biotique",
+      "logo": "/images/brand-biotique.png"
+    },
+    {
+      "id": "himalaya",
+      "label": "Himalaya",
+      "logo": "/images/brand-himalaya.png"
+    },
+    {
+      "id": "mamaearth",
+      "label": "Mama Earth",
+      "logo": "/images/brand-mamaearth.png"
+    },
+    {
+      "id": "indulekha",
+      "label": "Indulekha",
+      "logo": "/images/brand-indulekha.png"
+    }
+  ],
+  "hero": {
+    "title": "Beauty That Speaks Confidence",
+    "subtitle": "Step into new-season styles made for confidence and comfort. Elevate your wardrobe with modern design.",
+    "image": "/images/beauty.png"
+  },
+  "navlog":{
+    "images":"/images/webby-log.png"
+  }
+}

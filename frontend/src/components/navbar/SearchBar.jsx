@@ -1,37 +1,26 @@
-import React, { useState } from "react";
+import React from "react";
 
-
-export default function SearchBar({ compact = false }) {
-  const [q, setQ] = useState("");
-
+export default function SearchBar({ mobile = false }) {
   return (
-    <form
-      onSubmit={(e) => {
-        e.preventDefault();
-        
-        console.log("Search:", q);
-      }}
-      className={compact ? "w-full" : "w-full max-w-2xl"}
-    >
-      <div className={`flex items-center rounded-full bg-white shadow-sm ${compact ? "px-2 py-1" : "px-4 py-2"}`}>
+    <div className={`w-full ${mobile ? "block" : ""}`}>
+      <div className="relative">
         <input
           type="text"
-          value={q}
-          onChange={(e) => setQ(e.target.value)}
           placeholder="Search everything on Webby"
-          className={`flex-1 bg-transparent border-0 focus:ring-0 text-sm ${compact ? "px-2 py-2" : "px-4 py-3"}`}
+          className="w-full py-3 pl-5 pr-14 bg-white rounded-full shadow text-gray-700 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-300"
         />
+
+        {/* Search Button */}
         <button
-          type="submit"
-          className={`ml-2 ${compact ? "w-9 h-9" : "w-12 h-12"} rounded-full bg-[#003DAA] text-white flex items-center justify-center`}
-          aria-label="Search"
+          className="absolute right-1 top-1/2 -translate-y-1/2 bg-blue-800 text-white w-10 h-10 rounded-full flex items-center justify-center shadow-md"
         >
-          <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <circle cx="11" cy="11" r="6" />
-            <path d="M21 21l-4.3-4.3" />
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5"
+            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+              d="M21 21l-4.35-4.35M17 11a6 6 0 11-12 0 6 6 0 0112 0z" />
           </svg>
         </button>
       </div>
-    </form>
+    </div>
   );
 }
