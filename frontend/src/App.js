@@ -1,10 +1,11 @@
 import React from "react";
-import Home from "./pages/Home";
+import Main from "./Main"
+
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-gray-50">
-      <Home />
+    <div>
+      <Main/>
     </div>
   );
 }

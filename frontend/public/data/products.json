@@ -1,56 +1,57 @@
 {
   "categories": [
-    {
-      "id": "haircare",
-      "label": "Haircare",
-      "image": "/images/cat-haircare.png"
-    },
-    {
-      "id": "skincare",
-      "label": "Skin care",
-      "image": "/images/cat-skincare.png"
-    },
-    {
-      "id": "makeup",
-      "label": "Makeup",
-      "image": "/images/cat-makeup.png"
-    },
-    {
-      "id": "tools",
-      "label": "Hair tools",
-      "image": "/images/cat-tools.png"
-    },
-    {
-      "id": "fragrance",
-      "label": "Fragrances",
-      "image": "/images/cat-fragrance.png"
-    },
-    {
-      "id": "premium",
-      "label": "Premium beauty",
-      "image": "/images/cat-premium.png"
-    },
-    {
-      "id": "travel",
-      "label": "Travel size",
-      "image": "/images/cat-travel.png"
-    },
-    {
-      "id": "beautytools",
-      "label": "Beauty tools",
-      "image": "/images/cat-beautytools.png"
-    },
-    {
-      "id": "suncare",
-      "label": "Suncare",
-      "image": "images/cat-suncare.png"
-    },
-    {
-      "id":"thecurlshop",
-      "label":"The Curl Shop",
-      "image":"./images/cat-thecurlshop.png"
-    }
-  ],
+  {
+    "id": "haircare",
+    "label": "Haircare",
+    "image": "/images/cat-haircare.png"
+  },
+  {
+    "id": "skincare",
+    "label": "Skin care",
+    "image": "/images/cat-skincare.png"
+  },
+  {
+    "id": "makeup",
+    "label": "Makeup",
+    "image": "/images/cat-makeup.png"
+  },
+  {
+    "id": "tools",
+    "label": "Hair tools",
+    "image": "/images/cat-tools.png"
+  },
+  {
+    "id": "fragrance",
+    "label": "Fragrances",
+    "image": "/images/cat-fragrance.png"
+  },
+  {
+    "id": "premium",
+    "label": "Premium beauty",
+    "image": "/images/cat-premium.png"
+  },
+  {
+    "id": "travel",
+    "label": "Travel size",
+    "image": "/images/cat-travel.png"
+  },
+  {
+    "id": "beautytools",
+    "label": "Beauty tools",
+    "image": "/images/cat-beautytools.png"
+  },
+  {
+    "id": "suncare",
+    "label": "Suncare",
+    "image": "/images/cat-suncare.png"
+  },
+  {
+    "id": "thecurlshop",
+    "label": "The Curl Shop",
+    "image": "/images/cat-thecurlshop.png"
+  }
+],
+
   "products": [
     {
       "id": 1,

@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Hero({
-  title = `Beauty That\nSpeaks\nConfidence`,
+  title = `Beauty That Speaks Confidence`,
   subtitle = "Step into new-season styles made for confidence and comfort. Elevate your wardrobe with modern design.",
   image = "/images/beauty.png"
 }) {
